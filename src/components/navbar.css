@@ -1,5 +1,11 @@
 .nav-bar{
-    width: 90%;
+    width: 30%;
     height: 3rem;
     margin: 0 auto;
+}
+
+@media (max-width:786px) {
+    .nav-bar{
+            width: 90%;
+    }
 }
