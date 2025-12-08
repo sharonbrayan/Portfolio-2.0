@@ -4,8 +4,24 @@
     margin: 0 auto;
 }
 
-@media (max-width:786px) {
+@media (max-width:480px) {
     .nav-bar{
             width: 90%;
     }
+}
+
+
+@media (min-width: 481px) and (max-width: 786px) {
+  .nav-bar {
+    width: 70%;
+  }
+}
+
+.nav-items{
+    color: white;
+    transition: color 0.5s ease-in;
+}
+
+.nav-items:hover{
+    color: #a855f7;
 }
