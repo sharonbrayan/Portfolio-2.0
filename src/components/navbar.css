@@ -2,6 +2,11 @@
     width: 30%;
     height: 3rem;
     margin: 0 auto;
+    background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(10px);
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  border: 1px solid rgba(255, 255, 255, 0.05);
 }
 
 @media (max-width:480px) {
@@ -19,9 +24,15 @@
 
 .nav-items{
     color: white;
-    transition: color 0.5s ease-in;
+    transition: color 0.3s ease-in;
 }
 
-.nav-items:hover{
-    color: #a855f7;
+
+
+a.nav-items:hover {
+  color: #a855f7 !important;
+}
+
+a.nav-items.active-nav {
+  color: #a855f7 !important;
 }

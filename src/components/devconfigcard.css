@@ -1,0 +1,61 @@
+.dev-card {
+  background: #0d1117 !important;
+  border: 1px solid #30363d;
+  font-family: "Fira Code", monospace;
+  font-size: 18px;
+}
+
+/* Editor bubbles */
+.dot {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+}
+
+/* Syntax Highlighting */
+.comment {
+  color: #6a737d;
+}
+
+.keyword {
+  color: #c792ea;
+}
+
+.variable {
+  color: #82aaff;
+}
+
+.operator {
+  color: #89ddff;
+}
+
+.property {
+  color: #79c0ff;
+}
+
+.string {
+  color: #a5d6a7;
+}
+
+.boolean {
+  color: #f78c6c;
+}
+
+pre {
+  white-space: pre-wrap;
+  color: #c9d1d9;
+}
+.code-block {
+  line-height: 1.5;
+}
+
+.code-line {
+  display: block;
+  margin-bottom: 0.2rem;
+}
+
+@media (min-width: 786px) {
+  .dev-card {
+    width: 80%;
+  }
+}

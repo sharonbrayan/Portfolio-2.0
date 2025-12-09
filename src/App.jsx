@@ -6,9 +6,12 @@ import Home from './components/Home'
 const App = () => {
   return (
     <div>
-      <Navbar/>
+      <Navbar />
       <Home/>
       <About/>
+      <div className="vh-100"></div>
+      <div className="vh-100"></div>
+      <div className="vh-100"></div>
     </div>
   )
 }
