@@ -3,7 +3,7 @@ import "./devconfigcard.css";
 
 export default function DevConfigCard() {
   return (
-    <div className="dev-card bg-dark text-light rounded p-3 shadow-lg">
+    <div className="dev-card bg-dark text-light rounded p-3 shadow-lg mx-auto mb-5">
       {/* Header bar */}
       <div className="d-flex align-items-center gap-2 mb-3">
         <span className="dot bg-danger"></span>

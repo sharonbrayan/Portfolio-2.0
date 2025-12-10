@@ -1,0 +1,35 @@
+.project-card{
+    border: 1px solid #41215f;
+    border-radius: 10px;
+}
+
+.project-card:hover{
+    transform: scale(1.01);
+}
+.purple{
+    background-color: #9333ec;
+}
+
+li::marker{
+    color:#9333ec
+}
+.title{
+    color: #9333ec;
+}
+
+.scale:hover{
+    transform: scale(1.2);
+}
+
+.bg-gradient-1 {
+  background: linear-gradient(90deg, #72C6EF, #004E8F);
+}
+.bg-gradient-2{
+  background: linear-gradient(90deg, #00F5A0, #00D9F5);
+}
+.bg-gradient-3 {
+  background: linear-gradient(90deg, #00F5A0, #00D9F5);
+}
+.bg-gradient-4 {
+  background: linear-gradient(90deg, #00416A, #E4E5E6);
+}

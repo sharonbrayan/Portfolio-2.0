@@ -9,6 +9,9 @@ body {
     min-height: 100vh;
     background-attachment: fixed;
 }
+.pointer{
+    cursor: pointer;
+}
 
 .primary-text-color {
     color: #a855f7;
@@ -28,4 +31,8 @@ body {
 }
 .contact-btn{
     border :1px solid #a855f7;
+}
+
+.sub-heading{
+    border-bottom: 3px solid white;
 }
