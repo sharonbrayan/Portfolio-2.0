@@ -12,7 +12,7 @@ const About = () => {
           <FaClipboardList className='m-0 p-0 my-auto primary-text-color' size={20}/>
           <h4 className='primary-text-color m-0 p-0'>Bio</h4>
           </div>
-          <p className='my-4 fs-5'>I’m a MERN stack developer who learns by building real projects. I enjoy turning ideas into working applications and improving a little every day. I focus on writing clean code, understanding how things work end-to-end, and creating responsive, user-friendly interfaces.</p>
+          <p className='my-4 fs-5 lora-text'>I’m a MERN stack developer who learns by building real projects. I enjoy turning ideas into working applications and improving a little every day. I focus on writing clean code, understanding how things work end-to-end, and creating responsive, user-friendly interfaces.</p>
           <i className='d-block mb-4'>"Programming isn’t about what you know; it’s about what you can figure out"</i>
         </div>
         <div className="col-md-6">

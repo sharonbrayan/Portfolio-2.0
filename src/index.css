@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+
 :root {
     --primary-bg-color: #f2f2f2;
     --primary-text-color: #333;
@@ -9,6 +11,8 @@ body {
     min-height: 100vh;
     background-attachment: fixed;
 }
+
+
 .pointer{
     cursor: pointer;
 }
@@ -21,11 +25,19 @@ body {
     background-color: #a855f7;
 }
 
+.lora-text {
+  font-family: "Lora", serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: italic;
+}
 .gradient-text {
     background: linear-gradient(120deg, #a855f7 20%, #ec4899 80%);
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
+    font-family: "Bebas Neue", sans-serif;
+      font-style: normal;
     font-size: 3.5rem;
     line-height: 1.1;
 }

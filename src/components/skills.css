@@ -1,0 +1,74 @@
+ .card-container {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      padding: 20px;
+    }
+/* --- Idea 3: The "Split" Card (Structured & Professional) CSS --- */
+
+.card-container.split-theme {
+    gap: 20px;
+}
+
+.split-theme .tech-card {
+    width: 120px;
+    height: 140px; /* Taller card for the split structure */
+    background-color: #1f2328; /* Base color for the text section */
+    border: 1px solid #333;
+    border-radius: 6px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.4);
+    
+    /* Reset original flex settings and use block layout */
+    display: block; 
+    padding: 0; 
+    text-align: center;
+    
+    transition: all 0.3s ease;
+}
+
+.split-theme .icon-section {
+    height: 60%; /* Top half for the icon */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #2b3036; /* Background for the icon area (slightly lighter) */
+    border-bottom: 1px solid #3d454f;
+}
+
+.split-theme .tech-card img {
+    width: 50px;
+    height: 50px;
+    margin: 0;
+}
+
+.split-theme .tech-card p {
+    color: #e2e8f0;
+    font-size: 14px;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 5px;
+    margin: 0;
+}
+
+.split-theme .category {
+    /* Optional: Small text label for categorization */
+    display: block;
+    color: #8892b0;
+    font-size: 10px;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 2px;
+}
+
+/* Hover Effect (A subtle lift and shadow) */
+.split-theme .tech-card:hover {
+    /* Lift effect */
+    transform: translateY(-5px); 
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.7);
+    border-color: #555;
+}
+
+/* Maintain the invert class for the black icons */
+.invert {
+    filter: brightness(1) invert(1);
+}
