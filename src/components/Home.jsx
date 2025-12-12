@@ -9,8 +9,8 @@ const Home = () => {
                 <span className='d-block text-center fs-4 fw-bold'>A Full Stack Web Developer</span>
                 <p className='lora-text fs-6 text-center'>I build applications that are simple, functional, and clean — focusing on responsive UI, smooth user experience, and solid end-to-end logic.</p>
                 <div className='d-flex justify-content-center gap-2 mt-5'>
-                    <button className='primary-bg-color p-2 border-0 rounded-1 text-white'>View Resume</button>
-                <button className='primary-text-color p-2  rounded-1 bg-transparent contact-btn text-white'>Contact Me</button>
+                    <button className='primary-bg-color p-2 rounded-1  btn-1'>View Resume</button>
+                <button className=' p-2  rounded-1 btn-2 '>Contact Me</button>
                 </div>
             </div>
         </div>

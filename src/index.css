@@ -41,8 +41,23 @@ body {
     font-size: 3.5rem;
     line-height: 1.1;
 }
-.contact-btn{
+.btn-1{
+    border: none;
+    color: white;
+}
+.btn-2{
     border :1px solid #a855f7;
+    background-color: transparent;
+    color: #a855f7;
+}
+.btn-1:hover{
+    background-color: transparent;
+    border :1px solid #a855f7;
+    color: #a855f7;
+}
+.btn-2:hover{
+    background-color: #a855f7;
+    color: white;
 }
 
 .sub-heading{

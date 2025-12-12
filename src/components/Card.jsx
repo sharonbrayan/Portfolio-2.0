@@ -5,7 +5,7 @@ import { FaGithub } from 'react-icons/fa'
 const Card = ({ classname, liveLink, gitLink, title, description, features, techStack }) => {
   return (
     <div className=' w-100 project-card pointer mb-4'>
-
+ 
       <div className={`${classname} position-relative rounded-top-2`} style={{ height: '100px' }}>
         <div className='position-absolute top-0 start-0 pt-3 ps-3 d-flex gap-2'>
           {liveLink && <a className='text-white pointer scale' href={liveLink} target='_blank'><HiMiniArrowTopRightOnSquare size={30} /></a>}

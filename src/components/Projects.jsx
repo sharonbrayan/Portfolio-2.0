@@ -2,11 +2,11 @@ import React from 'react'
 import Card from './Card'
 
 const Projects = () => {
-    return (
+    return ( 
         <div className='container' id='projects'>
             <h2 className='text-center mb-5'><span className='sub-heading primary-text-color'>Projects</span></h2>
-            <div className="row d-flex">
-                <div className="col-md-6 ">
+            <div className="row d-flex gap-md-0 gap-5 p-2">
+                <div className="col-md-6">
                     <Card
                         classname="bg-gradient-1"
                         liveLink="https://taktusteam.onrender.com"
