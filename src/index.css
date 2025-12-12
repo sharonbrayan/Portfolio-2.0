@@ -63,3 +63,12 @@ body {
 .sub-heading{
     border-bottom: 3px solid white;
 }
+.go-to-top{
+    margin-bottom: 4rem;
+}
+
+@media (max-width:786px) {
+    .go-to-top{
+        margin-bottom: 150px;
+    }
+}
